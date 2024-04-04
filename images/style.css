@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  body {
+    font-family: "Public Sans", sans-serif;
+      font-size:18px;
+  }
+  nav ul li{
+      text-decoration: none;
+      display: inline;
+  }
+  .top{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+      display: flex;
+      align-items: center; 
+  }
+  nav ul li a {
+      text-decoration: none;
+      color: hsl(233, 8%, 62%);
+      background-image: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+      background-size: 0% 3px;
+      background-repeat: no-repeat;
+      background-position: left bottom;
+      transition: background-size 300ms ease;
+
+
+  }
+
+  nav ul li a:hover {
+      color:hsl(233, 26%, 24%);
+      background-size: 100% 3px;
+      transition: background-size 300ms ease;
+
+  }
+
+  .img1, .img2 {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  .para{
+      color: hsl(233, 8%, 62%);
+      text-align: left;
+      dispaly:flex;
+  }
+  .button {
+    background-image: linear-gradient(90deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    border: none;
+      height: 54px;
+  border-radius: 27px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .button:hover{
+      opacity:50%
+  }
+  h1{
+      font-weight: 400;
+      color: hsl(233, 26%, 24%);
+      font-size: 60px;
+  }
+  h2{
+      font-weight: 400;
+      color: hsl(233, 26%, 24%);
+
+  }
+  h3{
+      font-weight: 300;
+      color: hsl(233, 26%, 24%);
+  }
+
+  .midiv{
+      display: flex;
+      flex-direction: row;
+  }
